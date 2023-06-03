@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E0E0E0;
+  margin: 0;
+  padding: 0;
+  background-image: url('UI.jpg');
+  background-position: right;
+  background-size: 130%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+.budget-section, .remaining-budget-section {
+  margin-bottom: 20px;
+}
+
+.budget-form, .expense-form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.expense-section {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+button {
+  padding: 8px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4b8880;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #1e1e24;
+}
+
+#remaining-budget {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}

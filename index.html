@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Budgeting App </title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Budgeting Expense App By Hafiz Osama</h1>
+
+    <div class="budget-section">
+      <h2>Monthly Budget</h2>
+      <div class="budget-form">
+        <input type="number" id="monthly-budget" placeholder="Enter Monthly Budget" required>
+        <button id="set-budget-btn">Set Budget</button>
+      </div>
+    </div>
+
+    <div class="expense-section">
+      <h2>Expense Data</h2>
+      <table id="expense-table">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="expense-list">
+          
+        </tbody>
+      </table>
+    </div>
+
+    <div class="remaining-budget-section">
+      <h2>Remaining Budget</h2>
+      <p id="remaining-budget">$0.00</p>
+    </div>
+
+    <div class="expense-form-section">
+      <h2>Record Expense</h2>
+      <form id="expense-form">
+        <input type="text" id="expense-category" placeholder="Category" required>
+        <input type="text" id="expense-description" placeholder="Description" required>
+        <input type="number" id="expense-amount" placeholder="Amount" required>
+        <input type="date" id="expense-date" required>
+        <button id="add-expense-btn">Add Expense</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
